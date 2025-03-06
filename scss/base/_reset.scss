@@ -12,9 +12,11 @@ picture {
     block-size: auto;
 }
 
-a,
-a:visited,
-a:active {
+a{
     text-decoration: none;
     display: flex;
+}
+
+button {
+    border: none;
 }

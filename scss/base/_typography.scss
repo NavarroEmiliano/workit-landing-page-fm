@@ -11,6 +11,17 @@ h2,
 h3 {
     font-family: 'Fraunces', serif;
     font-weight: 600;
+
+    span {
+        display: inline-block;
+
+        &::after {
+            content: '';
+            block-size: 3px;
+            display: block;
+            background-color: u.$color-green;
+        }
+    }
 }
 
 h2,
@@ -21,7 +32,7 @@ h3 {
 p,
 button,
 a {
-    line-height: 1.8;
+    line-height: 1.78;
 }
 
 h1 {
@@ -37,12 +48,16 @@ h3 {
     font-size: clamp(u.rem(24), 1.323943661971831rem + 0.7511737089201878vw, u.rem(32));
 }
 
-p {
+p,
+button {
     font-size: clamp(u.rem(16), 0.9559859154929577rem + 0.18779342723004694vw, u.rem(18));
 }
 
 button,
 a {
-    font-size: u.rem(18);
     font-weight: 700;
+}
+
+a {
+    font-size: u.rem(18);
 }
