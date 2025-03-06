@@ -1,0 +1,4 @@
+@use '../utils/' as u;
+.header__logo {
+    inline-size: u.rem(95.76);
+}

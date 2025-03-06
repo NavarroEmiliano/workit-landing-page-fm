@@ -18,6 +18,12 @@ h3 {
     line-height: 1.2;
 }
 
+p,
+button,
+a {
+    line-height: 1.8;
+}
+
 h1 {
     font-size: clamp(u.rem(48), 2.295774647887324rem + 3.004694835680751vw, u.rem(80));
     line-height: 1;
@@ -33,5 +39,10 @@ h3 {
 
 p {
     font-size: clamp(u.rem(16), 0.9559859154929577rem + 0.18779342723004694vw, u.rem(18));
-    line-height: 1.8;
+}
+
+button,
+a {
+    font-size: u.rem(18);
+    font-weight: 700;
 }
