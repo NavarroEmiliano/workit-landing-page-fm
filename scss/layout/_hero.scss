@@ -2,24 +2,45 @@
 
 .hero {
     background-color: u.$color-purple-900;
-    
-    &__wrapper {
-        display: grid;
-        place-items: center;
-    }
-    
+    text-align: center;
+
+
     &__title {
         color: u.$color-white;
         margin-block-end: u.rem(40);
         max-inline-size: 12ch;
-        text-align: center;
+        margin-inline: auto;
     }
 
     &__button {
         margin-block-end: clamp(u.rem(64), 3.471830985915493rem + 2.253521126760563vw, u.rem(88));
     }
 
+    &__img-wrapper {
+        position: absolute;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        width: 100%;
+
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 600vw;
+            width: 600vw;
+            left: 50%;
+            bottom: 50%;
+            transform: translateX(-50%);
+            background-color: u.$color-purple-900;
+            border-radius: 50%;
+        }
+    }
+
     &__img {
+
+        position: relative;
+        z-index: 1;
         max-inline-size: u.rem(767);
     }
 }
