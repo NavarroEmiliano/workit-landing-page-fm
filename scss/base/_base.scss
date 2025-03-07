@@ -1,6 +1,11 @@
 @use '../utils/' as u;
 
+html,
+main,
+body {
+    overflow: hidden;
+}
+
 body {
     min-block-size: 100vh;
-    overflow-y: hidden;
 }
