@@ -4,6 +4,47 @@
     background-color: u.$color-purple-900;
     text-align: center;
 
+    &::before {
+        transition: all 300ms ease-in-out;
+        @include u.breakpoint(medium) {
+            content: '';
+            background-image: url(../../assets/images/bg-pattern-1.svg);
+            background-size: 100% 100%;
+            position: absolute;
+            block-size: u.rem(215);
+            inline-size: u.rem(270);
+            inset-inline-start: u.rem(-172);
+            inset-block-start: u.rem(138);
+        }
+
+        @include u.breakpoint(large) {
+            inset-inline-start: u.rem(-89);
+            inset-block-start: u.rem(138);
+        }
+    }
+
+    &::after {
+        transition: all 300ms ease-in-out;
+
+
+        @include u.breakpoint(medium) {
+            content: '';
+            background-image: url(../../assets/images/bg-pattern-2.svg);
+            background-size: 100% 100%;
+            position: absolute;
+            block-size: u.rem(141);
+            inline-size: u.rem(112);
+            inset-inline-end: u.rem(-61);
+            inset-block-start: u.rem(280);
+        }
+
+        @include u.breakpoint(large) {
+            inset-inline-end: u.rem(-45.68);
+            inset-block-start: u.rem(342);
+        }
+
+    }
+
 
     &__title {
         color: u.$color-white;
