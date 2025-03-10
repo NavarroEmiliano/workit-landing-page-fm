@@ -6,11 +6,12 @@
     background-color: u.$color-green;
     padding-inline: u.rem(32);
     padding-block: u.rem(12);
+    transition: all 150ms ease-in-out;
+    border: 2px solid u.$color-green;
 
     &:hover {
         background-color: u.$color-purple-900;
-        outline: 2px solid u.$color-green;
-        outline-offset: -2px;
+        border: 2px solid u.$color-green;
         color: u.$color-green;
     }
 }

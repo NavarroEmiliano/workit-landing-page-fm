@@ -15,7 +15,7 @@
         color: u.$color-white;
         border-block-end: 3px solid u.$color-green;
         display: flex;
-        transition: color 100ms ease-in-out;
+        transition: all 150ms ease-in-out;
         &:hover {
             color:u.$color-green;
         }
