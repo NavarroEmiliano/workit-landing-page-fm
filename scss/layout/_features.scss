@@ -3,7 +3,6 @@
 .features {
         color: u.$color-purple-900 ;
         background-color: u.$color-purple-100;
-        
 
         &__wrapper {
                 background-color: u.$color-purple-100;
@@ -23,7 +22,6 @@
                         padding-block-end: 144px;
                 }
         }
-
 
         &__item {
                 display: flex;
@@ -73,7 +71,6 @@
                 position: relative;
                 overflow-x: hidden;
                 background-color: u.$color-white;
-
 
                 &::after {
                         content: '';
