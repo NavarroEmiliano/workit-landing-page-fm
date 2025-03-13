@@ -2,8 +2,6 @@
 
 .features {
         color: u.$color-purple-900 ;
-        overflow: hidden;
-
 
         &__wrapper {
                 background-color: u.$color-purple-100;
@@ -12,19 +10,18 @@
         &__items {
                 display: flex;
                 flex-direction: column;
-                padding-block-start: u.rem(64);
-                padding-block-end: u.rem(64);
-                gap: u.rem(32);
+                padding-block: 64px;
+                gap: 32px;
 
                 @include u.breakpoint(medium) {
-                        padding-block-start: u.rem(56);
-                        padding-block-end: u.rem(44);
+                        padding-block-start: 56px;
+                        padding-block-end: 44px;
                 }
 
                 @include u.breakpoint(large) {
                         flex-direction: row;
-                        padding-block-start: u.rem(88);
-                        padding-block-end: u.rem(144);
+                        padding-block-start: 88px;
+                        padding-block-end: 144px;
                 }
         }
 
@@ -34,10 +31,10 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                gap: u.rem(24);
+                gap: 24px;
 
                 @include u.breakpoint(medium) {
-                        gap: u.rem(56);
+                        gap: 56px;
                         flex-direction: row;
                         justify-content: flex-start;
                         text-align: start;
@@ -66,14 +63,15 @@
                 flex-direction: column;
 
                 @include u.breakpoint(medium) {
-                        gap: u.rem(28);
+                        gap: 28px;
                 }
         }
 
         &__curve {
                 block-size: clamp(u.rem(24), -0.05172413793103425rem + 6.620689655172413vw, u.rem(72));
                 position: relative;
-                overflow: hidden;
+                overflow-x: hidden;
+
 
                 &::after {
                         content: '';
@@ -87,7 +85,4 @@
                         border-radius: 50%;
                 }
         }
-
-
-
 }
