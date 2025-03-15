@@ -8,7 +8,7 @@
         background-color: u.$color-purple-900;
     }
 
-/*     &::before {
+    &::before {
         transition: all 300ms ease-in-out;
         @include u.breakpoint(medium) {
             content: '';
@@ -25,9 +25,9 @@
             inset-inline-start: u.rem(-89);
             inset-block-start: u.rem(138);
         }
-    } */
+    }
 
-/*     &::after {
+    &::after {
         transition: all 300ms ease-in-out;
 
 
@@ -47,7 +47,7 @@
             inset-block-start: u.rem(342);
         }
 
-    } */
+    }
 
 
     &__title {
