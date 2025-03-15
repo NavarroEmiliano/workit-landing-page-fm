@@ -2,13 +2,37 @@
 
 .hero {
     text-align: center;
+    position: relative;
     overflow-x: hidden;
+
+    &__pattern-1 {
+        position: absolute;
+        block-size: u.rem(215);
+        inline-size: u.rem(270);
+
+        
+        @include u.breakpoint(large) {
+            inset-inline-start: u.rem(-89);
+        }
+
+    }
+
+    &__pattern-2 {
+        position: absolute;
+        block-size: u.rem(141);
+        inline-size: u.rem(112);
+
+        @include u.breakpoint(large) {
+            inset-inline-end: u.rem(-45.68);
+            inset-block-start: u.rem(200);
+        }
+    }
     
     &__wrapper {
         background-color: u.$color-purple-900;
     }
 
-    &::before {
+/*      &::before {
         transition: all 300ms ease-in-out;
         @include u.breakpoint(medium) {
             content: '';
@@ -25,9 +49,9 @@
             inset-inline-start: u.rem(-89);
             inset-block-start: u.rem(138);
         }
-    }
+    }  */
 
-    &::after {
+/*      &::after {
         transition: all 300ms ease-in-out;
 
 
@@ -47,7 +71,7 @@
             inset-block-start: u.rem(342);
         }
 
-    } 
+    } */
 
 
     &__title {
