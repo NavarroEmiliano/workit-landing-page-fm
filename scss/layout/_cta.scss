@@ -63,11 +63,18 @@
                 background-image: url(../../assets/images/bg-pattern-1.svg);
                 background-size: 100% 100%;
                 position: absolute;
-                inset-block-end: -64px;
-                inset-inline-end: 107px;
+                inset-block-end: -113px;
+                inset-inline-end: 20px;
                 inline-size: 221px;
                 block-size: 241px;
             }
+
+            @include u.breakpoint(large) {
+                inset-block-end: -76px;
+                inset-inline-end: 107px;
+            }
+
+
         }
     }
 }
