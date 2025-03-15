@@ -2,14 +2,14 @@
 
 .hero {
     text-align: center;
-    overflow-x: hidden;
-    
+
     &__wrapper {
         background-color: u.$color-purple-900;
     }
 
-    &::before {
+    &__spin-left {
         transition: all 300ms ease-in-out;
+
         @include u.breakpoint(medium) {
             content: '';
             background-image: url(../../assets/images/bg-pattern-1.svg);
@@ -27,7 +27,7 @@
         }
     }
 
-    &::after {
+    &__spin-right {
         transition: all 300ms ease-in-out;
 
 
