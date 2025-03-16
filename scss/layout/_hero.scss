@@ -8,11 +8,11 @@
     &__pattern-1 {
         position: absolute;
         inline-size: u.rem(270);
+        block-size: auto;
 
 
         @include u.breakpoint(large) {
-            inline-size: u.rem(270);
-
+            inline-size: u.rem(360);
             inset-inline-start: u.rem(-89);
         }
 
@@ -20,11 +20,11 @@
 
     &__pattern-2 {
         position: absolute;
-        block-size: u.rem(141);
+        block-size: auto;
         inline-size: u.rem(112);
 
         @include u.breakpoint(large) {
-            inline-size: u.rem(200);
+            inline-size: u.rem(250);
             inset-inline-end: u.rem(-69);
             inset-block-start: u.rem(200);
         }
