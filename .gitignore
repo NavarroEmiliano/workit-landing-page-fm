@@ -15,5 +15,5 @@
 README-template.md
 style-guide.md
 /design
-/dist
+/dist/style.css
 /node_modules
