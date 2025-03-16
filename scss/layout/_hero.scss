@@ -7,11 +7,12 @@
 
     &__pattern-1 {
         position: absolute;
-        block-size: u.rem(215);
         inline-size: u.rem(270);
 
-        
+
         @include u.breakpoint(large) {
+            inline-size: u.rem(270);
+
             inset-inline-start: u.rem(-89);
         }
 
@@ -23,11 +24,12 @@
         inline-size: u.rem(112);
 
         @include u.breakpoint(large) {
-            inset-inline-end: u.rem(-45.68);
+            inline-size: u.rem(200);
+            inset-inline-end: u.rem(-69);
             inset-block-start: u.rem(200);
         }
     }
-    
+
     &__wrapper {
         background-color: u.$color-purple-900;
     }

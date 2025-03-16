@@ -159,11 +159,11 @@ a {
 }
 .hero__pattern-1 {
   position: absolute;
-  block-size: 13.4375rem;
   inline-size: 16.875rem;
 }
 @media (min-width: 69.375em) {
   .hero__pattern-1 {
+    inline-size: 16.875rem;
     inset-inline-start: -5.5625rem;
   }
 }
@@ -174,7 +174,8 @@ a {
 }
 @media (min-width: 69.375em) {
   .hero__pattern-2 {
-    inset-inline-end: -2.855rem;
+    inline-size: 12.5rem;
+    inset-inline-end: -4.3125rem;
     inset-block-start: 12.5rem;
   }
 }
