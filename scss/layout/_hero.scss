@@ -13,7 +13,7 @@
 
         @include u.breakpoint(large) {
             inline-size: u.rem(360);
-            inset-inline-start: u.rem(-89);
+            inset-inline-start: u.rem(-120);
         }
 
     }
@@ -24,7 +24,7 @@
         inline-size: u.rem(112);
 
         @include u.breakpoint(large) {
-            inline-size: u.rem(250);
+            inline-size: u.rem(230);
             inset-inline-end: u.rem(-69);
             inset-block-start: u.rem(200);
         }

@@ -165,7 +165,7 @@ a {
 @media (min-width: 69.375em) {
   .hero__pattern-1 {
     inline-size: 22.5rem;
-    inset-inline-start: -5.5625rem;
+    inset-inline-start: -7.5rem;
   }
 }
 .hero__pattern-2 {
@@ -175,7 +175,7 @@ a {
 }
 @media (min-width: 69.375em) {
   .hero__pattern-2 {
-    inline-size: 15.625rem;
+    inline-size: 14.375rem;
     inset-inline-end: -4.3125rem;
     inset-block-start: 12.5rem;
   }
