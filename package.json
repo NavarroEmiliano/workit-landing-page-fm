@@ -1,0 +1,24 @@
+{
+  "name": "workit-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Workit landing page coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/style.scss:dist/style.css --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NavarroEmiliano/workit-landing-page-fm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NavarroEmiliano/workit-landing-page-fm/issues"
+  },
+  "homepage": "https://github.com/NavarroEmiliano/workit-landing-page-fm#readme",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
