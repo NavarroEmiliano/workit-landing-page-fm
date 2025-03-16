@@ -4,7 +4,7 @@
   "description": "![Design preview for the Workit landing page coding challenge](./preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "sass scss/style.scss:public/style.css --no-source-map"
+    "build": "sass --watch scss/style.scss:public/style.css --no-source-map"
   },
   "repository": {
     "type": "git",
