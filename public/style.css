@@ -41,7 +41,7 @@ button {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 600;
-  src: url("/public/assets/fonts/fraunces/fraunces-v32-latin-600.woff2") format("woff2");
+  src: url("fonts/fraunces/fraunces-v32-latin-600.woff2") format("woff2");
 }
 /* manrope-regular */
 @font-face {
@@ -49,7 +49,7 @@ button {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
-  src: url("/public/assets/fonts/manrope/manrope-v15-latin-regular.woff2") format("woff2");
+  src: url("fonts/manrope/manrope-v15-latin-regular.woff2") format("woff2");
 }
 /* manrope-700 */
 @font-face {
@@ -57,7 +57,7 @@ button {
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
-  src: url("/public/assets/fonts/manrope/manrope-v15-latin-700.woff2") format("woff2");
+  src: url("fonts/manrope/manrope-v15-latin-700.woff2") format("woff2");
 }
 body {
   font-family: "Manrope", serif;
